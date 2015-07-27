@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/image_size" >
+        <ListPreference
+            android:entries="@array/imageSizes"
+            android:entryValues="@array/imageSizeValues"
+            android:key="prefImageSize"
+            android:summary="@string/pref_mage_size_summary"
+            android:title="@string/pref_image_size_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoResize"
+            android:summary="@string/pref_auto_resize_summary"
+            android:title="@string/pref_auto_resize_title" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/draft_setting_title" >
+       
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefKeepDraft"
+            android:title="@string/pref_keep_draft_title" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

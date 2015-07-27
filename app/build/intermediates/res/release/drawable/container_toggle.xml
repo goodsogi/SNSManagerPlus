@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/container_opened" android:state_selected="false"/>
+    <item android:drawable="@drawable/container_closed" android:state_selected="true"/>
+
+</selector><!-- From: file:/home/johnny/AndroidStudioProjects/SNSManager%20Plus%20Extension/app/src/main/res/drawable/container_toggle.xml -->

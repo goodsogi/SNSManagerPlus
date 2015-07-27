@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="90dp" />
+
+</LinearLayout><!-- From: file:/home/johnny/AndroidStudioProjects/SNSManager%20Plus%20Extension/app/src/main/res/layout/gridview_item.xml -->

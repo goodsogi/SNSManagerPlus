@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <EditText
+            android:id="@+id/query_search_nearby"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/search_nearby" />
+
+        <Button
+            android:id="@+id/search_nearby"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_action_search" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:text="@string/geotag"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/map_marker" />
+
+        <TextView
+            android:id="@+id/current_location"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/checkbbox_current_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/title_foursquare_venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/foursquare_venues"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/toggle_foursquare_venues"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/container_toggle" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/selected_foursquare_venue"
+        layout="@layout/venues_list_item"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/line_foursquare_venue"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ffffff"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list_foursquare_venues"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:visibility="gone" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/title_facebook_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/facebook_places"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/toggle_facebook_places"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/container_toggle" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/selected_facebook_place"
+        layout="@layout/venues_list_item"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/line_facebook_place"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ffffff"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list_facebook_places"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:visibility="gone" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/title_twitter_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/twitter_places"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/toggle_twitter_places"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/container_toggle" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/selected_twitter_place"
+        layout="@layout/venues_list_item"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/line_twitter_place"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ffffff"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list_twitter_places"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:visibility="gone" >
+    </ListView>
+
+</LinearLayout>

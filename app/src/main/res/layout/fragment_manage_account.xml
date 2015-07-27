@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <world.plus.manager.sns4.manage_account.SpinnerTrigger
+        android:id="@+id/spinner_sns_add"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_gravity="right"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/guide_add_sns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list_sns_account"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ad_manage_account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="a151b80c9acdc2c" />
+
+</LinearLayout>

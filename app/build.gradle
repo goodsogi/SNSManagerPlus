@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "world.plus.manager.sns4"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 350
+        versionName "3.5.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+
+dependencies {
+    compile 'com.loopj.android:android-async-http:1.4.5'
+    //+로 최신 버전 안 깔면 adsize 어쩌구 저쩌구 오류나니더
+    compile 'com.google.android.gms:play-services:+'
+    //이클립스 프로젝트의 project.properties 보고 이기 필요한 거 알았니더
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+    //최신 버전으로 설치하면 너무 많이 바뀌어 오류 장난 아니니더. 아래 버전으로 꼭 설치하이소
+    compile 'com.facebook.android:facebook-android-sdk:3.21.1'
+    //compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/crashlytics.jar')
+    compile files('libs/httpmime-4.2.1.jar')
+    compile files('libs/libGoogleAnalyticsServices.jar')
+    compile files('libs/twitter4j-core-3.0.5.jar')
+    compile files('libs/universal-image-loader-1.8.6.jar')
+}

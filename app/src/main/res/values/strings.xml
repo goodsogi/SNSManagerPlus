@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common -->
+
+    <string name="app_name">SNS Manager +</string>
+    <string name="action_settings">Settings</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="progress_message">Signing in to Google&#8230;</string>
+    <string name="type_message">Type message here</string>
+    <string name="cant_send_message">Can not send message</string>
+    <string name="sending_post">Sending post...</string>
+    <string name="try_again">Try again</string>
+    <string name="posted_successfully">Posted successfully</string>
+    <string name="not_connected_internet">Phone is not connected to Internet.</string>
+    <!-- Facebook app id -->
+    <string name="app_id">620539614622861</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="googleplus">Google Plus</string>
+    <string name="foursquare">Foursquare</string>
+    <string name="appnet">App.net</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="manage_sns">Manage SNS</string>
+    <string name="put_in_message_select_img">put in message or select an image please</string>
+    <string name="choose_sns">Choose at least one SNS</string>
+    <string name="social_networks">Social Networks</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <!-- Setings -->
+    <string name="activity_settings">Settings</string>
+    <string name="image_size">Image Size</string>
+    <string name="pref_mage_size_summary">Select image size to post</string>
+    <string name="pref_image_size_title">Image Size</string>
+    <string name="pref_auto_resize_title">Auto Resize</string>
+    <string name="pref_auto_resize_summary">When out of memory occurs, reduce the size of image. If unchecked, photo will not be sent.</string>
+    <string name="draft_setting_title">Draft Image and Text</string>
+    <string name="pref_keep_draft_title">Keep draft image and text</string>
+
+    <!-- WriteFragment -->
+    <string name="text_limit">140</string>
+    <string name="post_edittext_hint">What\'s new?</string>
+    <string name="send">SEND</string>
+    <string name="photo_popup_title">PHOTO</string>
+    <string name="photo_from_gallery">Gallery</string>
+    <string name="photo_from_camera">Camera</string>
+    <string name="delete_popup_title">DELETE</string>
+    <string name="delete_text">Text</string>
+    <string name="delete_photo">Photo</string>
+    <string name="delete_text_photo">Text and Photo</string>
+    <string name="post_error_message">Failed to send post to</string>
+    <string name="login_sns">Log in at least one SNS</string>
+    <string name="googleplus_not_installed">Google Plus is not installed</string>
+    <string name="photo_not_ready">Photo is not ready</string>
+    <string name="length_over_140">Part over 140 in text to Twitter will be ignored</string>
+    <string name="length_over_118">Part over 118 in text to Twitter will be ignored</string>
+    <string name="same_with_previous_message">Same with previous message</string>
+    <string name="search_nearby">Search nearby...</string>
+    <string name="geotag">Geo Tag</string>
+    <string name="foursquare_venues">Foursquare Venues</string>
+    <string name="facebook_places">Facebook Places</string>
+    <string name="agree_location_service">Agree with location service?</string>
+    <string name="go">Go</string>
+    <string name="twitter_places">Twitter Places</string>
+    <string name="add_venue_foursquare">Please select a venue in order to post to Foursquare</string>
+    <string name="add_photo_foursquare">Please select a photo in order to post to Foursquare</string>
+    <string name="geo_popup_title">LOCATION</string>
+    <string name="change_location">Change</string>
+    <string name="delete_location">Delete</string>
+
+    <!-- ManageAccountFragment -->
+    <string name="click_this_to_login">Click this to log in</string>
+    <string name="wanna_logout">Really want to log out?</string>
+    <string name="fail_login_to">Failed log in to </string>
+    <string name="already_login">Already logged in!!</string>
+    <string name="click_this_to_add_sns">Click this to add your SNS</string>
+
+    <!-- MainActivity -->
+    <string name="exit_popup_title">Exit this app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- PlacesActivity -->
+    <string name="confirm">Confirm</string>
+    <string name="activity_places">Places</string>
+    <!-- Navigation drawer list -->
+    <string-array name="navi_drawer_list_array">
+        <item>Post</item>
+        <item>Connect to SNS</item>
+        <item>Manage Accounts</item>
+        <item>Setting</item>
+    </string-array>
+    <string-array name="array_social_networks">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Google Plus</item>
+        <item>Foursquare</item>
+        <item>Linkedin</item>
+        <item>App.net</item>
+    </string-array>
+    <string-array name="imageSizes">
+        <item>Original</item>
+        <item>800 x 600</item>
+        <item>320 x 480</item>
+    </string-array>
+    <string-array name="imageSizeValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

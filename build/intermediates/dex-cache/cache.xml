@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/classes-9cc8d1a1e55c038a5aeb1aa5d1c01edc53f165c6.jar" />
+    </item>
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/libs/httpmime-4.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7c772bace9aa31a728c39a88c6ff66a7cd177e89">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/httpmime-4.2.1-ce1bdebe3dbcb13c37045c3316453b01a37ecd20.jar" />
+    </item>
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e887c6c9b31b39a39b0eaba981448b78902ea813">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-b0301dbbd16e2443ebc27c69afb8062ee7012362.jar" />
+    </item>
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/libs/universal-image-loader-1.8.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.8.6-50b16aedaccd921b60023c900c0c60dee860fd30.jar" />
+    </item>
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/libs/twitter4j-core-3.0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5999e1915b61b30c9fc40d5d1971906bb68aca6c">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/twitter4j-core-3.0.5-883612db8b4d4a0daa3e5822258e69b26fe3017b.jar" />
+    </item>
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/classes-8c25f6d26be33f12a46eb1b9c9bc5d6fc50424eb.jar" />
+    </item>
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/libs/crashlytics.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/crashlytics-b0faed28af9c5275ad26a781ae335943b74c2d20.jar" />
+    </item>
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/classes-9d1ae05b390e8437a1c4ae41428f40de0318a115.jar" />
+    </item>
+    <item
+        jar="/home/johnny/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.5/77bf7cacf9cefe19dc105e5425d2eb1bb5285881/android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.5-97eeb1fa550d6cc5bb3fef12159196ee24835eb2.jar" />
+    </item>
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-ad0a4739839289beed5d9d6675151a37053dcb33.jar" />
+    </item>
+    <item
+        jar="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/classes-8efd8936ab8c33d2ab2d0ab91d1b3ba31ff6bbaa.jar" />
+    </item>
+    <item
+        jar="/home/johnny/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-78f21044159596ea30bf4f74b04fdbb4d9832ee6.jar" />
+    </item>
+    <item
+        jar="/home/johnny/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/home/johnny/AndroidStudioProjects/SNSManager Plus Extension/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-2147f237d0c3565a6ce31f3eb9e2f0dc5c0898eb.jar" />
+    </item>
+
+</items>

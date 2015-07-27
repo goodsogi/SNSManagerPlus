@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_gravity="center_horizontal"
+    android:background="#50415e9b"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="3dp" >
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/user_sns_name"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#70333333" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/minus" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="world.plus.manager.sns4"
+    android:versionCode="350"
+    android:versionName="3.5.0" > <!-- changed minSdkVersion 8 to 11 for use of Asynctask executeOnExecutor -->
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+    <!-- camera -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Google Plus -->
+    <!-- So that we can get the account name -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Required if we need to invalidate access tokens -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- Piccasa Image -->
+    <uses-permission android:name="com.google.android.gallery3d.permission.GALLERY_PROVIDER" />
+
+    <application
+        android:name="world.plus.manager.sns4.main.MyApplication"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="world.plus.manager.sns4.main.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/noTheme"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="world.plus.manager.sns4.settings.SettingsActivity"
+            android:parentActivityName="world.plus.manager.sns4.main.MainActivity"
+            android:screenOrientation="portrait" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity" />
+        </activity>
+        <activity
+            android:name="world.plus.manager.sns4.write.PlacesActivity"
+            android:parentActivityName="world.plus.manager.sns4.main.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            android:windowSoftInputMode="stateHidden|adjustNothing" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main.MainActivity" />
+        </activity>
+        <!-- login by webview -->
+        <activity
+            android:name="world.plus.manager.sns4.manage_account.WebviewLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="world.plus.manager.sns4.util.CameraAlbumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="dbef2b0a3f66da36718ab27c67cf7bc782937587" />
+    </application>
+
+</manifest>
